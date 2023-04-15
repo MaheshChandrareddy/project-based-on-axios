@@ -23,12 +23,17 @@
   border-radius: 100px;
   text-decoration: none;
   color: white;
+
 }
 .MenuCon > .row > li span > a :hover .spans {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 .MenuCon > .row > li:hover .spans {
   border-bottom: 2px solid rgb(255, 255, 255);
+}
+.MenuCon > .row > li .spans img{
+  height: 10px;
+  width: 10px;
 }
 .CourseCon {
   display: none;

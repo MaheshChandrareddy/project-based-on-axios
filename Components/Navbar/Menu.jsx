@@ -8,6 +8,7 @@ export let AdRole = createContext();
 const Menu = () => {
   let [Arole, setArole] = useState("user");
   let [course, setCourse] = useState([]);
+  let [name, setName] = useState("");
   useEffect(() => {
     let fetch = async () => {
       let { data } = await axios.get("http://localhost:5000/api/v1/courses");
@@ -24,6 +25,8 @@ const Menu = () => {
         },
       });
       setArole(data.data.role);
+      console.log(data.data)
+      setName(data.data.name)
     };
     fetchData();
   }, []);
@@ -38,7 +41,7 @@ const Menu = () => {
         </li>
         <li className={style.col4}>
           <span className={style.spans}>
-            <NavLink to="/Eduxit/Profile">Profile</NavLink>
+            <NavLink to="/Eduxit/Profile">{name}</NavLink>
           </span>
         </li>
         <li className={style.col4}>
@@ -54,7 +57,8 @@ const Menu = () => {
       <>
         <li className={style.col4}>
           <span className={style.spans}>
-            <NavLink to="/Eduxit/Profile">Profile</NavLink>
+            <NavLink to="/Eduxit/Profile">{ name}
+            </NavLink>
           </span>
         </li>
         <li className={style.col4}>
