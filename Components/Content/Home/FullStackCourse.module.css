@@ -1,0 +1,100 @@
+.FullStackCon{
+  margin: 20px;
+}
+.IconCon {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.IconCon .IconCard {
+  width: 85%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.IconCard div a, .BookToken{
+  border: 1px solid ;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: black;
+}
+.IconCard div a:hover, .BookToken:hover{
+  background-color: #302657;
+  box-shadow: 0px 0px 4px 0px #302657 ;
+  color: white;
+}
+.IconCard div {
+  height: 20vh;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #704dff;
+}
+.IconCard div p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.IconCard div button {
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+.BookToken{
+    border: 1px solid ;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+/* ! class card */
+.Scedule {
+  text-align: center;
+  padding: 50px;
+}
+.ClassCard {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.ClassCard .ClassSubCard {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ClassSubCard div {
+  height: inherit;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px 0px rgb(86, 86, 86);
+}
+.ClassSubCard .img1 {
+  width: 100%;
+  height: 40vh;
+}
+.ClassSubCard .img2 {
+  width: 100%;
+  height: 50vh;
+}
+.ClassSubCard aside{
+  width: 40%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ClassSubCard aside h1{
+  font-size: 50px;
+}

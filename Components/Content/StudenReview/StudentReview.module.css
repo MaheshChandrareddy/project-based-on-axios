@@ -1,0 +1,66 @@
+.BackImg img {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.HoverText h1 {
+  position: absolute;
+  top: 60vh;
+  left: 10%;
+  color: white;
+  font-size: 50px;
+  opacity: 0;
+  z-index: 1;
+    animation-name: para;
+      animation-duration: 2s;
+   animation-fill-mode: both
+   
+}
+.hoverImg{
+  height: 117vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+}
+
+@keyframes para {
+ 100% {
+    opacity: 1;
+    top: 50vh;
+  }
+
+}
+.ReviewCon {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ReviewSub {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ReviewSub div {
+  width: 21%;
+  height: 40vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #302657;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+.ReviewSub div img{
+  height: 50px;
+  width: 50px;
+}
+.Reviewh1 h1 {
+  padding-left: 93vh;
+}

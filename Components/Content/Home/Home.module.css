@@ -1,0 +1,78 @@
+.homeMainCon {
+  background-color: azure;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+/*  ! text on the images */
+.hoverTitleText{
+  position: absolute;
+  top: 10vh;
+  left: 60%;
+  color: white;
+}
+.hoverTitleText h1{
+  font-size: 50px;
+}
+.hoverTitleText h3{
+  font-size: 20px;
+}
+.EnrollCon .EnrollConbtn{
+  position: absolute;
+  top: 60vh;
+  right: 20%;
+  padding: 5px 20px;
+  background-color: #302657;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.waveImg{
+  position: absolute;
+  top: 90vh;width: 100%;
+  height: 20vh;
+}
+/*  ! text on the images end*/
+.HoverImg {
+  width: 100%;
+  height: 110vh;
+  background-color: black;
+  position: absolute;
+  top: 0vh;
+  opacity: 0.4;
+}
+.homeSubCon {
+  position: relative;
+}
+.homeSubCon > img {
+  width: 100%;
+  height: 110vh;
+}
+.homeSubCon h2 {
+  font-size: 50px;
+  position: absolute;
+  animation-name: para;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  top: 45vh;
+  left: 0%;
+  left: 10%;
+  opacity: 0;
+  z-index: 1;
+  color: white;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 29vh;
+  }
+}
+.hoverImg {
+  height: 110vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+}

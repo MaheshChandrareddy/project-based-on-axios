@@ -1,0 +1,38 @@
+.SidebarCon {
+  width: 6%;
+  height: 85vh;
+  position: sticky;
+  top: 16.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* background-color: rgb(176, 93, 19); */
+background-color: rgb(220,220,247);
+
+}
+
+.SidebarCon div {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SidebarCon div .link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  list-style: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.SidebarCon div .link li{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: center;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.556);
+}
+.SidebarCon div .link :hover{
+  color: #302657;
+}

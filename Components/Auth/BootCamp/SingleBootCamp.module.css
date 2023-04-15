@@ -1,0 +1,51 @@
+.displayBody {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.BootmainCon {
+  width: 100%;
+  height: 60vh;
+}
+.BootsubCon {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.BCardCon img{
+  width: 100%;
+  height: 20vh;
+  border-radius: 10px;
+}
+
+.BCardCon {
+  height: 70vh;
+  width: 25%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 3px 0px #302657;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 2vh;
+  justify-content: space-between;
+}
+.CardBtnCon{
+  display: flex;
+  justify-content: space-evenly;
+}
+.BCardCon button{
+  color: #302657;
+  padding: 5px 13px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 0px #302657;
+  margin-bottom: 10PX;
+}
+.BCardCon button:hover{
+  background-color: #302657;
+  color: white;
+}

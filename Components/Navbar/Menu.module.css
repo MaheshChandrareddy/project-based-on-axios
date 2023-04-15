@@ -1,0 +1,124 @@
+.MenuCon {
+  height: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: end;
+}
+.MenuCon > .row {
+  display: flex;
+  height: 14vh;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  position: relative;
+  width: 70%;
+}
+.MenuCon > .row > li {
+  cursor: pointer;
+  padding: 3.5% 2%;
+  border-radius: 100px;
+}
+.MenuCon > .row > li span > a {
+  padding: 3.5% 2%;
+  border-radius: 100px;
+  text-decoration: none;
+  color: white;
+}
+.MenuCon > .row > li span > a :hover .spans {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.MenuCon > .row > li:hover .spans {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.CourseCon {
+  display: none;
+  position: absolute;
+  top: 10.9vh;
+  width: 50%;
+  height: auto;
+  border: 1px solid #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  z-index: 99;
+  animation-name: para;
+  animation-duration: 600ms;
+  animation-fill-mode: both;
+  top: 9vh;
+  opacity: 0;
+}
+.CourseCon ul {
+  list-style: none;
+  padding-left: 10px;
+}
+ul li {
+  padding: 6px;
+}
+.CourseCon ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.CourseCon ul li:hover {
+  border-bottom: 2px solid rgb(27, 17, 134);
+}
+.FullstackCon {
+  display: none;
+  position: absolute;
+  top: 10.9vh;
+  border: 1px solid;
+  width: 50%;
+  height: 27vh;
+  border: 1px solid #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  animation-name: para;
+  animation-duration: 600ms;
+  animation-fill-mode: both;
+  top: 9vh;
+  opacity: 0;
+}
+.FullstackCon ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.ResourcesCon {
+  display: none;
+  position: absolute;
+  border: 1px solid;
+  width: 50%;
+  height: 27vh;
+  border: 1px solid #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  animation-name: para;
+  animation-duration: 400ms;
+  animation-fill-mode: both;
+  top: 9vh;
+  opacity: 0;
+}
+@keyframes para {
+  100% {
+    opacity: 1;
+    top: 11vh;
+  }
+}
+.col1:hover .CourseCon {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+}
+
+.FullstackCon ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.FullstackCon ul li {
+  padding: 10px;
+}
+.FullstackCon ul li:hover {
+  border-bottom: 2px solid rgb(27, 17, 134);
+}
+.col2:hover .FullstackCon {
+  cursor: pointer;
+  display: block;
+  height: auto;
+}

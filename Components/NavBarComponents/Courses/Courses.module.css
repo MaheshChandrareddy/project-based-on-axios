@@ -1,0 +1,120 @@
+.secMain {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.artMain {
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(226, 224, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.artMain img {
+  width: 100%;
+  height: 100vh;
+}
+.artMain ul {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  animation-name: para;
+  position: absolute;
+  animation-duration: 2s;
+  z-index: 1;
+  top: 45vh;
+  animation-fill-mode: both;
+}
+@keyframes para {
+  100% {
+    top: 30vh;
+  }
+}
+.artMain ul h1 {
+  font-size: 60px;
+}
+.artMain ul p {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.artMain ul button {
+   padding: 7px 40px;
+   font-size: 25px;
+  border-radius: 10px;
+  background-color: #302657;
+  color: white;
+  cursor: pointer;
+}
+.artMain ul button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 4px 0px #302657;
+  transition-duration: 600ms;
+}
+.screen {
+  height: 112vh;
+  width: 94%;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+.DetailsMain {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DetailsMain .DetailsSub {
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.DetailsSub div {
+  width: 20%;
+  height: 30vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #302657;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DetailsSub div h1 {
+  font-size: 20px;
+}
+.DetailsSub div span {
+  font-size: 50px;
+}
+.DetailsSub div button {
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: #302657;
+  color: white;
+  cursor: pointer;
+}
+.DetailsSub div button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 4px 0px #302657;
+  transition-duration: 600ms;
+}
+
+/* .outlet{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(174, 55, 55);
+} */

@@ -1,0 +1,116 @@
+/* ! footer container */
+.FooterCon{
+  background: #f7f8f9;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FooterConList {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.FooterConList .FooterList1 {
+  width: 30%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.FooterList1 h1{
+  font-size: 50px;
+}
+.FooterList1 h3{
+  font-size: 17px;
+  padding-left: 65px;
+}
+.FooterList2 {
+  width: 30%;
+  height: 55vh;
+}
+.FooterList2 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.FooterList2 ul {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.FooterList2 .FooterList2head2 {
+  padding-top: 20px;
+}
+.FooterConList ul li {
+  list-style: none;
+}
+.FooterConList .FooterList3 {
+  width: 30%;
+  height: 55vh;
+}
+.FooterConList .FooterList3 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.FooterConList .FooterList3 ul {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.FooterConList .FooterList4 {
+  width: 30%;
+  height: 55vh;
+}
+.FooterConList .FooterList4 h1 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.FooterConList .FooterList4 div {
+  display: flex;
+  padding-bottom: 30px;
+}
+.FooterConList .FooterList4 div span {
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border-radius: 100px;
+}
+
+/* ! border bottom footer */
+.BtmFooterCon {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  /* position: relative; */
+  /* top: 80vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BtmFooterCon .BtmFooterSub {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BtmFooterCon .BtmFooterSub div a {
+  margin-left: 20px;
+  color: white;
+}

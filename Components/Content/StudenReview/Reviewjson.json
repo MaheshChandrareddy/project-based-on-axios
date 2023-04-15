@@ -1,0 +1,50 @@
+[
+  {
+    "name": "sagar",
+    "course": "python",
+    "rating": " ★ ★ ★",
+    "review": "its good to learn"
+  },
+  {
+    "name": "Mahesh",
+    "course": "react",
+    "rating": "★ ★ ★ ★",
+    "review": "awesome front-end laibrary"
+  },
+  {
+    "name": "Muthu",
+    "course": "js",
+    "rating": "★ ★ ",
+    "review": "dynamic programing language"
+  },
+  {
+    "name": "Rohith",
+    "course": "java",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "security language i love this language"
+  },
+  {
+    "name": "Prathanu",
+    "course": "node",
+    "rating": "★ ★ ★ ★",
+    "review": "im gald to learn this technology"
+  },
+  {
+    "name": "joseph",
+    "course": "angular",
+    "rating": "★ ★ ★ ★ ★",
+    "review": "its too good language "
+  },
+  {
+    "name": "Prateek",
+    "course": "css",
+    "rating": "★ ★ ★ ",
+    "review": "i love css so i learnt it"
+  },
+  {
+    "name": "mohemed basith",
+    "course": "html",
+    "rating": "★ ★ ★ ★ ",
+    "review": "i love to create an web apps "
+  }
+]
